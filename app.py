@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import joblib
 
 # Load the trained model
 model = joblib.load("random_forest_model.pkl")
